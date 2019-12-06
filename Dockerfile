@@ -31,5 +31,5 @@ RUN go build -o ./brusta-go
 
 RUN ls -al
 
-EXPOSE 8080
+EXPOSE 80
 CMD ["./brusta-go"]
